@@ -2,22 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8423b8b6-92d0-4e1e-87ae-3fb245ba969b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tweets/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tweets/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tweets/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tweets/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tweets/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tweets/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tweets/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/time_helpers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitter/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitter/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,10 +38,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.HTTP Request" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tweets/api" />
       <recent name="$PROJECT_DIR$/accounts/api" />
     </key>
   </component>
@@ -88,7 +82,7 @@
       <workItem from="1665095504004" duration="8483000" />
       <workItem from="1665767567860" duration="4219000" />
       <workItem from="1665784564274" duration="403000" />
-      <workItem from="1666112461950" duration="10883000" />
+      <workItem from="1666112461950" duration="22406000" />
     </task>
     <servers />
   </component>
@@ -131,10 +125,10 @@
       <screen x="0" y="23" width="1680" height="922" />
     </state>
     <state x="282" y="91" key="IDE.errors.dialog/1680.-47.1920.1057/0.23.1680.922@0.23.1680.922" timestamp="1670348944452" />
-    <state x="1967" y="81" key="SettingsEditor" timestamp="1665784528537">
-      <screen x="1680" y="-70" width="1920" height="1080" />
+    <state x="213" y="23" key="SettingsEditor" timestamp="1670455969799">
+      <screen x="0" y="23" width="1680" height="922" />
     </state>
-    <state x="251" y="152" key="SettingsEditor/1680.-47.1920.1057/0.23.1680.922@0.23.1680.922" timestamp="1665698805596" />
+    <state x="213" y="23" key="SettingsEditor/1680.-47.1920.1057/0.23.1680.922@0.23.1680.922" timestamp="1670455969799" />
     <state x="1967" y="101" key="SettingsEditor/1680.-47.1920.1057/0.23.1680.922@1680.-47.1920.1057" timestamp="1665096826784" />
     <state x="1967" y="81" key="SettingsEditor/1680.-70.1920.1080/0.0.1680.945@1680.-70.1920.1080" timestamp="1665784480983" />
     <state x="1967" y="81" key="SettingsEditor/1680.-70.1920.1080/0.23.1680.922@1680.-70.1920.1080" timestamp="1665784528537" />
@@ -155,5 +149,9 @@
       <screen x="0" y="23" width="1680" height="922" />
     </state>
     <state x="531" y="136" width="598" height="735" key="find.popup/1680.-47.1920.1057/0.23.1680.922@0.23.1680.922" timestamp="1665703104563" />
+    <state x="373" y="23" width="1005" height="1466" key="search.everywhere.popup" timestamp="1670455996824">
+      <screen x="0" y="23" width="1680" height="922" />
+    </state>
+    <state x="373" y="23" width="1005" height="1466" key="search.everywhere.popup/1680.-47.1920.1057/0.23.1680.922@0.23.1680.922" timestamp="1670455996824" />
   </component>
 </project>

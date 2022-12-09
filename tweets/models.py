@@ -15,6 +15,11 @@ class Tweet(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     # updated_at = models.DateTimeField(auto_now=True)
 
+    class Meta:
+        # compound index / composite index
+        index_together = (('user', 'created_at'),)
+        ordering = ('user', '-created_at')
+
     @property
     def hours_to_now(self):
         # datetime.now 不带时区信息，需要增加上 utc的时区信息
@@ -23,7 +28,6 @@ class Tweet(models.Model):
     def __str__(self):
         # 这里是你执行 print(tweet instance) 的时候会显示的内容
         return f'{self.created_at} {self.user}: {self.content}'
-
 
 
 
