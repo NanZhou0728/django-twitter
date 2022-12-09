@@ -20,7 +20,7 @@ from accounts.api.views import UserViewSet, AccountViewSet
 from tweets.api.views import TweetViewSet
 # from django.conf import settings
 
-import debug_toolbar
+
 
 router = routers.DefaultRouter()
 router.register(r'api/users', UserViewSet)
